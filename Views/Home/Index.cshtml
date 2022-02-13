@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "The Joel Hilton Film Collection";
+}
+
+<div class="box">
+    <h1>The Joel Hilton Film Collection</h1>
+
+    <div class="hstack">
+        <img src="~/img/JoelHiltonHeadshot.jpg" height="300" />
+        <div class="vstack">
+            <div>
+                <a asp-controller="Home" asp-action="Podcast" class="btn">Podcast Link</a>
+            </div>
+            <br />
+            <div>
+                <a asp-controller="Home" asp-action="MovieInput" class="btn">Fill Out A Movie</a>
+            </div>
+            <br />
+            <div>
+                <a asp-controller="Home" asp-action="MovieList" class="btn">View Movie List</a>
+            </div>
+        </div>
+    </div>
+</div>
